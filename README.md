@@ -40,7 +40,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-My app was crashing and the error message displayed that the username is null in the database. When I checked the database the username field had a value but not the correct user id. Once I rectified that, the app crashing issue was resolved. Identifying this bug consumed a lot of hours.
+My app was crashing and the error message displayed that the username is null in the database. When I checked the database the username field had a value but not the correct user id. Once I rectified that, the app crashing issue was resolved. Identifying this bug consumed a lot of hours but was a good learning experience.
 
 ## Open-source libraries used
 
