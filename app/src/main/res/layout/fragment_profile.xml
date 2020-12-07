@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ProfileFragment">
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvPosts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>
+
+
+<!--<LinearLayout-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="?attr/actionBarSize"-->
+<!--android:orientation="horizontal">-->
+
+<!--<ImageView-->
+<!--    android:id="@+id/ivCameraProfileInNestedLinearLayout"-->
+<!--    android:layout_width="50dp"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:contentDescription="ivCameraInNestedLinearLayout"/>-->
+<!--&lt;!&ndash;            app:srcCompat="@drawable/camera_shadow_fill" />&ndash;&gt;-->
+
+<!--<ImageView-->
+<!--    android:id="@+id/ivLogoProfileInNestedLinearLayout"-->
+<!--    android:layout_width="200dp"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_marginStart="45dp"/>-->
+<!--&lt;!&ndash;            app:srcCompat = "@drawable" />&ndash;&gt;-->
+
+<!--<Button-->
+<!--    android:id="@+id/btnLogOutProfileInNestedLinearLayout"-->
+<!--    android:layout_width="90dp"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_marginStart="5dp"-->
+
+<!--    android:paddingLeft="0dp"-->
+<!--    android:paddingRight="13dp"-->
+<!--    android:text="Log Out"-->
+<!--    android:textAlignment="center"-->
+<!--    android:textAllCaps="false"-->
+<!--    android:textColor="@android:color/white"/>-->
+<!--&lt;!&ndash;            android:background="@color/twitter_blue_fill_pressed"/>&ndash;&gt;-->
+<!--</LinearLayout>-->
